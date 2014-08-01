@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<PreferenceCategory android:title="@string/app.pref.general.title" android:key="general">
+	    <CheckBoxPreference
+	            android:key="enableTTS"
+	            android:title="@string/app.pref.general.tts"
+	            android:summary="@string/app.pref.general.tts.summary"
+	            android:defaultValue="true" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/app.pref.language.title">
+	    <ListPreference
+	            android:key="language"
+	            android:title="@string/app.pref.language.title"
+	            android:summary="@string/app.pref.language.summary"
+	            android:defaultValue="1000"
+	            android:entries="@array/supportedLanguages"
+	            android:entryValues="@array/supportedLanguageCodes" />
+	</PreferenceCategory>    
+
+</PreferenceScreen>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/mainView"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/gradient">
+  
+<EditText
+   android:id="@+id/txtInput"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:singleLine="true"
+   android:inputType="textFilter|textCapCharacters"
+   android:cursorVisible="false" 
+   android:scrollbars="none"
+   android:background="#00ffffff"
+   android:textColor="#00ffffff">
+</EditText>
+<TextView 
+	android:id="@+id/txtCodeWord" 
+	android:gravity="center"
+	android:textSize="50sp"
+	android:textAppearance="?android:attr/textAppearanceLarge"
+	android:layout_width="fill_parent"
+	android:text="@string/app.name"
+	android:layout_height="258dp">
+</TextView>
+   
+</FrameLayout>

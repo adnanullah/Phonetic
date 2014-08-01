@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- general string resources -->
+    <string name="app.name">Phonetic</string>
+    <string name="app.pref.general.title">General</string>
+    <string name="app.pref.general.tts">Enable TTS</string>
+    <string name="app.pref.general.tts.summary">Enable or disable text-to-speech</string>
+    <string name="app.pref.language.title">Languages</string>
+    <string name="app.pref.language.summary">Defines the language to be used within the application</string>
+    
+    <!-- Supported languages -->
+    <string-array name="supportedLanguages">
+        <item name="english">English</item>
+        <item name="french">French</item>
+        <item name="german">German</item>
+        <item name="spanish">Spanish</item>
+        <item name="italian">Italian</item>
+    </string-array>
+    
+    <string-array name="supportedLanguageCodes">
+        <item name="english">EN</item>
+        <item name="french">FR</item>
+        <item name="german">DE</item>
+        <item name="spanish">ES</item>
+        <item name="italian">IT</item>
+    </string-array>
+    
+    
+    <!-- Localised code words -->
+    <string name="code.A">Alpha</string>
+    <string name="code.B">Bravo</string>
+    <string name="code.C">Charlie</string>
+    <string name="code.D">Delta</string>
+    <string name="code.E">Echo</string>
+    <string name="code.F">Foxtrot</string>
+    <string name="code.G">Golf</string>
+    <string name="code.H">Hotel</string>
+    <string name="code.I">India</string>
+    <string name="code.J">Juliet</string>
+    <string name="code.K">Kilo</string>
+    <string name="code.L">Lima</string>
+    <string name="code.M">Mike</string>
+    <string name="code.N">November</string>
+    <string name="code.O">Oscar</string>
+    <string name="code.P">Papa</string>
+    <string name="code.Q">Quebec</string>
+    <string name="code.R">Romeo</string>
+    <string name="code.S">Sierra</string>
+    <string name="code.T">Tango</string>
+    <string name="code.U">Uniform</string>
+    <string name="code.V">Victor</string>
+    <string name="code.W">Whiskey</string>
+    <string name="code.X">X-Ray</string>
+    <string name="code.Y">Yankee</string>
+    <string name="code.Z">Zulu</string>
+    <string name="code.0">Zero</string>
+    <string name="code.1">One</string>
+    <string name="code.2">Two</string>
+    <string name="code.3">Three</string>
+    <string name="code.4">Four</string>
+    <string name="code.5">Five</string>
+    <string name="code.6">Six</string>
+    <string name="code.7">Seven</string>
+    <string name="code.8">Eight</string>
+    <string name="code.9">Nine</string>
+</resources>
